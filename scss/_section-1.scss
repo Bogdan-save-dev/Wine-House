@@ -1,10 +1,26 @@
 .section-1 {
+  //   font-size: 50px;
 }
-.section__wrapper {
-}
+
 .section-1__wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url(./../images/section-1-bg.jpg) center no-repeat;
+  background-size: cover;
 }
 .section-1__heading-wrapper {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .section-1__heading {
+  font-size: 10rem;
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border-bottom: 0.2rem solid #d50000;
+
+  text-align: right;
+  user-select: none;
 }
