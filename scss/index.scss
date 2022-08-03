@@ -22,7 +22,7 @@ h6 {
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
 }
 
 .container {
@@ -50,5 +50,5 @@ section {
 @import 'section-1';
 @import 'section-2';
 @import 'section-3';
-// @import 'section-4';
+@import 'section-4';
 // @import 'section-5';
