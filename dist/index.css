@@ -190,3 +190,43 @@ section {
   padding: 1rem;
   opacity: 0.7;
 }
+
+.section-5 {
+  z-index: 400;
+}
+
+.section__wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(/images/section-5-bg.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-5__list li {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #ddd;
+  margin: 1rem 0;
+}
+.section-5__list li:first-child {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.section-5__img {
+  width: 40rem;
+  margin: 0 10rem;
+  opacity: 0.9;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 2rem;
+  font-size: 2rem;
+  color: #ddd;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
